@@ -6,15 +6,20 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
+        int n = sc.nextInt();
 
-        for (int i = 0; i < b; i++) {
-            System.out.println("****");
-       }
-        for (int i = 0; i < a; i++) {
-            System.out.print("");
+        while (n > 0) {
+            for (int i = 5; i > 0; i--) {
+                System.out.print("");
+            }
+            System.out.printf("%d ", n);
+            n--;
+
         }
+
+
+
+
 
     }
 }
